@@ -61,7 +61,6 @@ export default{
         <p class="comentario"><strong class="nombre">Juan Perez:</strong>  ¡Wow, esta foto de Tokio es Impresionante!&#127750;&#10024;</p>
         <p class="comentario"><strong class="nombre">Kathleen J Rennie:</strong> ¡Esta foto de Tokio es simplemente espectacular! Me trae tantos recuerdos.</p>
         <p class="comentario"><strong class="nombre">Diana Bell:</strong> ¡Espero que algún día pueda ver Tokio en persona!</p>
-        <p v-if="error" style="color: red">{{ error }}</p>
         <ul style="list-style: none; padding: 0; padding-top: 10px;">
             <li v-for="(texto, index) in comentarios" :key="index">
                 <div class="user-comment" style="display: inline">
