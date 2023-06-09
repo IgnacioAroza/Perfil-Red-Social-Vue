@@ -1,0 +1,14 @@
+@import './base.css';
+
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    /* margin-top: 3rem; */
+    height: auto;
+    width: auto;
+    background-color: #DDDDDD;
+}
