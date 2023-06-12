@@ -22,7 +22,7 @@ export default{
     grid-area: 2 / 2 / 3 / 3;
     background: #fff;
     width: 60%;
-    height: 25rem;
+    height: auto;
     border-radius: 10px;
     text-align: start;
     margin-right: 1%;
@@ -37,5 +37,12 @@ export default{
 
 .txt-about{
     padding: 10px 15px;
+}
+
+@media (max-width: 768px){
+    .sobre-mi{
+        width: 80%;
+        margin-left: -10%;
+    }
 }
 </style>

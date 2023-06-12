@@ -53,6 +53,7 @@ export default{
     align-items: center;
     border-radius: 10px;
     margin-top: 3rem;
+    position: relative;
 }
 .foto{
     padding: 10px 10px;
@@ -72,9 +73,9 @@ export default{
     width: 9rem;
     background: #0084EB;
     color: #fff;
-    position: relative;
-    left: 38%;
-    top: 30%;
+    position: absolute;
+    left: 80%;
+    top: 70%;
     cursor: pointer
 }
 
@@ -94,5 +95,52 @@ export default{
 
 strong{
     font-weight: 700;
+}
+
+@media (max-width: 768px){
+    .inf-basica{
+        margin-left: -10%;
+    }
+    .foto img{
+        margin: 3%;
+    }
+    .inf-basica button{
+    border: none;
+    border-radius: 10px;
+    height: 2.3rem;
+    width: 6rem;
+    background: #0084EB;
+    color: #fff;
+    position: absolute;
+    left: 80%;
+    top: 70%;
+    cursor: pointer
+    }
+
+.inf-basica button:hover{
+    background: #0000ff;
+    transition: 0.3s;
+    }
+}
+@media (max-width: 425px){
+    .inf-basica{
+        font-size: 12px;
+        position: static;
+    }
+    .foto img{
+        width: 8rem;
+        height: auto;
+    }
+    .datos{
+        position: absolute;
+        left: 35%;
+        top: 27%;
+    }
+    .inf-basica button{
+        height: 2rem;
+        width: 5rem;
+        left: 60%;
+        font-size: 12px;
+    }
 }
 </style>

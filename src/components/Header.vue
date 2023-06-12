@@ -1,8 +1,5 @@
 <script>
 export default{
-    props:{
-        usuario: '',
-    },
     data(){
         return{
             usuario: '',
@@ -39,5 +36,28 @@ header{
     border: none;
     border-radius: 5px;
     text-align: center;
+}
+@media (max-width: 768px){
+    header{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 425px){
+    header{
+        position: static;
+    }
+
+    #logo{
+        position: absolute;
+        left: -150px;
+    }
+    
+    #inpUsuario{
+        position: absolute;
+        left: 80px;
+        width: 8rem;
+    }
 }
 </style>

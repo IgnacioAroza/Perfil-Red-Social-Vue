@@ -28,7 +28,7 @@ export default{
 
 <template>
 <Header @update:usuario = "updateUsuario"></Header>
-<section>
+<section class="section">
     <InfBasica></InfBasica>
     <Publicacion :usuario="usuario"></Publicacion>
     <SobreMi></SobreMi>
