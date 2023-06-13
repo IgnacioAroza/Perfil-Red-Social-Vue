@@ -116,8 +116,7 @@ strong{
     top: 70%;
     cursor: pointer
     }
-
-.inf-basica button:hover{
+    .inf-basica button:hover{
     background: #0000ff;
     transition: 0.3s;
     }
@@ -142,5 +141,33 @@ strong{
         left: 60%;
         font-size: 12px;
     }
+}
+@media (max-width: 375px){
+    .inf-basica{
+        font-size: 12px;
+        position: static;
+    }
+    .foto img{
+        width: 5rem;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        left: 5%;
+    }
+    .datos{
+        position: absolute;
+        left: 5%;
+        top: 45%;
+    }
+    .inf-basica button{
+        height: 2rem;
+        width: 5rem;
+        left: 60%;
+        font-size: 12px;
+    }
+    .datos p, h1{
+    padding: 2px;
+    text-align: left;
+}
 }
 </style>
