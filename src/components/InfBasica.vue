@@ -145,25 +145,24 @@ strong{
 @media (max-width: 375px){
     .inf-basica{
         font-size: 12px;
-        position: static;
     }
     .foto img{
         width: 5rem;
         height: auto;
-        position: absolute;
-        top: 25%;
-        left: 5%;
+        position: static;
     }
     .datos{
-        position: absolute;
-        left: 5%;
-        top: 45%;
+        position: static;
     }
     .inf-basica button{
+        position: static;
         height: 2rem;
         width: 5rem;
-        left: 60%;
         font-size: 12px;
+        margin-right: 10px;
+    }
+    .inf-basica button:hover{
+        height: 3rem;
     }
     .datos p, h1{
     padding: 2px;
